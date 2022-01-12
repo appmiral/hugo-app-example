@@ -1,0 +1,7 @@
+replacements = 'github.com/appmiral/hugo-app-template -> ..\..\hugo-app-template'
+
+[[imports]]
+  disable = false
+  ignoreConfig = false
+  ignoreImports = false
+  path = 'github.com/appmiral/hugo-app-template'

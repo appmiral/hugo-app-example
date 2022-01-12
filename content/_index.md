@@ -1,0 +1,2 @@
+## ToDo: {.fiverrToDo}
+please add a feature that removes the need for this root index file. The app should starts at a configurable section. in this case: 'home'. This should be the base for the whole app too.

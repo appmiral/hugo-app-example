@@ -1,0 +1,28 @@
+# main menu
+[[main]]
+name = "Home"
+pageref = "/home/"
+weight = 1
+[main.params]
+  icon = "home"
+
+[[main]]
+name = "Player"
+pageref = "/player/"
+weight = 2
+hasChildren = true
+[main.params]
+  icon = "play_arrow"
+
+  [[main]]
+  parent = "Player"
+  name = "Editor"
+  pageref = "/editor/"
+  weight = 1
+
+[[main]]
+name = "Three"
+pageref = "/threeD/"
+weight = 3
+[main.params]
+  icon = "3d_rotation"

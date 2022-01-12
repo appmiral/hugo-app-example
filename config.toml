@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Appmiral Example App'
+
+buildFuture = true
+buildDrafts = true
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "WebAppManifest"] #"RSS", 
+
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
